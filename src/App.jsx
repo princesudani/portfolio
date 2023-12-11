@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -8,10 +7,10 @@ import Testimonial from './components/Testimonial'
 function App() {
   return (
     <>
-    <Header/>
-    <Hero/>
-    <Testimonial/>
-    <Footer/>
+      <Header/>
+      <Hero/>
+      <Testimonial/>
+      <Footer/>
     </>
   )
 }

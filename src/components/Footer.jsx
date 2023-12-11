@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label for="name" className="leading-7 text-sm text-gray-400">
+                  <label htmlFor="name" className="leading-7 text-sm text-gray-400">
                     Name
                   </label>
                   <input
@@ -28,7 +28,7 @@ const Footer = () => {
               <div className="p-2 w-1/2">
                 <div className="relative">
                   <label
-                    for="email"
+                    htmlFor="email"
                     className="leading-7 text-sm text-gray-400"
                   >
                     Email
@@ -44,7 +44,7 @@ const Footer = () => {
               <div className="p-2 w-full">
                 <div className="relative">
                   <label
-                    for="message"
+                    htmlFor="message"
                     className="leading-7 text-sm text-gray-400"
                   >
                     Message
